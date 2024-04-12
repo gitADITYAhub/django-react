@@ -1,0 +1,59 @@
+.event-list-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .event-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .event-image-container {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+  .event-image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .event-info h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2em;
+  }
+  
+  .event-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .like-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .like-button:focus {
+    outline: none;
+  }
+  
